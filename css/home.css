@@ -1,0 +1,22 @@
+.back {
+    z-index: 0;
+    /* background: fixed; */
+    /* position: fixed; */
+
+}
+
+.food {
+    float: left;
+    width: 20%;
+
+}
+
+.food3 {
+    float: left;
+    width: 33%;
+}
+
+.food4 {
+    float: left;
+    width: 100%;
+}
