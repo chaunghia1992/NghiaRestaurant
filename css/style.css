@@ -12,7 +12,7 @@ a{ text-decoration: none;}
 header{
     width: 100vw;
     height: 100vh;
-    background: url("/images/a4.avif");
+    background: url("../images/a4.avif");
     background-position: centaer;
     background-size: cover;
     background-repeat: no-repeat;
