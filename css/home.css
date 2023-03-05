@@ -23,4 +23,51 @@
 
 .btn{
     display: block;
+    background-color: rgb(220, 18, 21);
+    border: 0px;
+    padding: 6px 15px;
+    color: #fff;
 }
+.btn:hover {
+    background-color: rgb(239, 239, 27)
+}
+
+.btnAdd {
+    background-color: rgb(111, 88, 242);
+    border: 0px;
+    padding: 6px 15px;
+    color: #fff;
+}
+
+.btnAdd:hover {
+    background-color: rgb(123, 27, 239)
+}
+.btn-edit {
+    background-color: rgb(228, 196, 14);
+    border:0px ;
+    padding:6px 15px;
+    color: #fff;
+}
+.btn-edit:hover {
+    background-color: rgb(115, 189, 18)
+}
+
+.btn-show-info {
+    background-color: rgb(134, 115, 7);
+    border:0px ;
+    padding:6px 15px;
+    color: #fff;
+}
+.btn-show-info:hover {
+    background-color: rgb(28, 43, 212)
+}
+.btn-delete {
+    background-color: rgb(189, 48, 10);
+    border:0px ;
+    padding:6px 15px;
+    color: #fff;
+}
+.btn-delete {
+    background-color: rgb(115, 165, 15)
+}
+

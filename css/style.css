@@ -70,7 +70,7 @@ header .menu-icon input.checked ~ .menu-line::before  {
     align-items: center;
     justify-items: center;
 }
-.menu-line{
+/* .menu-line{
     height: 4px;
     width: 100%;
     background: rgb(244, 241, 245);
@@ -93,7 +93,7 @@ header .menu-icon input.checked ~ .menu-line::before  {
     position: absolute;
     background:rgb(241, 238, 241); 
     top: 14px;
-} 
+}  */
 .menu-item{
     position:fixed;
     width: 300px;

@@ -13,8 +13,49 @@
     <header>
         <div id="tbFoods">
         </div>
+        
     </header>
+</table>
+<h1> Menu Management </h1>
+
+<table border="1" style="width: 400px; height: 200px" ;>
+    <tr id="Menu">
+       
+    </tr>
+
+    <tr>
+        <th>ID</th>
+        <td><input type="number" id="id"></td>
+
+    </tr>
+    <tr>
+        <th>image</th>
+        <td><input type="text" id="img"></td>
+    </tr>
+    <tr>
+        <th>name</th>
+        <td><input type="text" id="name"></td>
+    </tr>
+    <tr>
+        <th>price</th>
+        <td><input type="text" id="price"></td>
+    </tr>
+    <tr>
+        <th>description</th>
+        <td><input type="text" id="description"></td>
+    </tr>
+    
+    <tr>
+        <th></th>
+        <td>
+            <button class="btnAdd" id="add" onclick="addfood()">Add</button>
+            <button class="btn-edit" id="Edit" onclick="editFood()">Edit</button>
+        </td>
+    </tr>
+</table>
+  
     <script src="scripts/site.js"></script>
 </body>
+
 
 </html>
