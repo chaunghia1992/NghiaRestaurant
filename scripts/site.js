@@ -14,10 +14,10 @@ const restaurant_url = 'http://127.0.0.1:5500/index.html';
 function init(){
     if(localStorage.getItem('data-food') == null){
         foods =[ new Food(1, "../images/51.jpg", "Ga quay lu", 280000),
-            new Food(2, "../images/52.jpg", "Heo Rừng Xào Xả Ớt", 120000 ),
-            new Food(3, "../images/53.jpg", "Mực hấp Gừng", 100000),
-            new Food(4, "../images/58.jpg", "Bò nướng lá lốt ", 90000),
-            new Food(5, "../images/55.jpg", "Cua Rang Me", 190000),
+            new Food(2, "./images/52.jpg", "Heo Rừng Xào Xả Ớt", 120000 ),
+            new Food(3, "./images/53.jpg", "Mực hấp Gừng", 100000),
+            new Food(4, "./images/58.jpg", "Bò nướng lá lốt ", 90000),
+            new Food(5, "./images/55.jpg", "Cua Rang Me", 190000),
         ]
 
         localStorage.setItem('data-food',JSON.stringify( foods));
